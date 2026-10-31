@@ -1,0 +1,80 @@
+[
+  {
+    "name": "کود باریش ماکرو NPK 10-52-10+TE",
+    "category": "کودهای ماکرو NPK",
+    "group": "npk",
+    "source": "https://brsh.ir/"
+  },
+  {
+    "name": "کود باریش ماکرو NPK 12-12-36+TE",
+    "category": "کودهای ماکرو NPK",
+    "group": "npk",
+    "source": "https://brsh.ir/"
+  },
+  {
+    "name": "کود باریش ماکرو NPK 15-5-30+TE",
+    "category": "کودهای ماکرو NPK",
+    "group": "npk",
+    "source": "https://brsh.ir/"
+  },
+  {
+    "name": "کود باریش ماکرو NPK 20-20-20+TE",
+    "category": "کودهای ماکرو NPK",
+    "group": "npk",
+    "source": "https://brsh.ir/"
+  },
+  {
+    "name": "کود باریش پیستاک",
+    "category": "کودهای آلی",
+    "group": "organic",
+    "source": "https://brsh.ir/"
+  },
+  {
+    "name": "کود باریش جنرال",
+    "category": "کودهای آلی",
+    "group": "organic",
+    "source": "https://brsh.ir/"
+  },
+  {
+    "name": "کود مرغی باریش",
+    "category": "کودهای آلی",
+    "group": "organic",
+    "source": "https://brsh.ir/"
+  },
+  {
+    "name": "کود مرغی باریش ویژه",
+    "category": "کودهای آلی",
+    "group": "organic",
+    "source": "https://brsh.ir/"
+  },
+  {
+    "name": "پودر گوگرد باریش میکرونیزه ۹۹ درصد مش 325",
+    "category": "محصولات گوگردی",
+    "group": "sulfur",
+    "source": "https://brsh.ir/"
+  },
+  {
+    "name": "گوگرد پودری 99 درصد باریش سولفیدو ویژه",
+    "category": "محصولات گوگردی",
+    "group": "sulfur",
+    "source": "https://brsh.ir/"
+  },
+  {
+    "name": "پودر گوگرد زرین شیراز",
+    "category": "محصولات گوگردی",
+    "group": "sulfur",
+    "source": "https://brsh.ir/"
+  },
+  {
+    "name": "گوگرد بنتونیت‌دار 75 درصد باریش",
+    "category": "محصولات گوگردی",
+    "group": "sulfur",
+    "source": "https://brsh.ir/"
+  },
+  {
+    "name": "کائولین",
+    "category": "محصولات خارجی",
+    "group": "imported",
+    "source": "https://brsh.ir/"
+  }
+]
