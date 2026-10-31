@@ -554,3 +554,21 @@ button:active, .btn:active { transform: scale(.98); }
   font-weight: 900;
   font-size: 14px;
 }
+
+/* جلوه ویژه عنوان باریش در سربرگ */
+@media (max-width: 700px) {
+  .site-header::before {
+    content: "باریش" !important;
+    font-family: inherit;
+    font-size: 30px !important;
+    font-weight: 1000 !important;
+    letter-spacing: -1px;
+    background: linear-gradient(135deg, #174d32 15%, #b58a27 52%, #245d3b 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #245d3b;
+    filter: drop-shadow(0 2px 2px rgba(30, 70, 40, 0.18));
+    white-space: nowrap;
+  }
+}
