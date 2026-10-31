@@ -531,3 +531,14 @@ button:active, .btn:active { transform: scale(.98); }
     display: none !important;
   }
 }
+
+/* برچسب قیمت ویژه محصولات */
+.product-card .price,
+.product-card .product-price {
+  color: #a87516 !important;
+  background: #fff5d9 !important;
+  border: 1px solid #ead49b !important;
+  border-radius: 10px !important;
+  padding: 5px 10px !important;
+  font-weight: 900 !important;
+}
