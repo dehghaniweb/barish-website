@@ -438,3 +438,96 @@ button:active, .btn:active { transform: scale(.98); }
     display: none !important;
   }
 }
+
+/* چیدمان قطعی سربرگ موبایل باریش */
+@media screen and (max-width: 900px) {
+  .site-header {
+    display: block !important;
+    position: relative !important;
+    width: 100% !important;
+    height: 116px !important;
+    min-height: 116px !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    direction: ltr !important;
+  }
+
+  .site-header .header-actions {
+    position: absolute !important;
+    left: 10px !important;
+    right: auto !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    justify-content: center !important;
+    width: 112px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    gap: 7px !important;
+    direction: rtl !important;
+    z-index: 5 !important;
+  }
+
+  .site-header .user-button,
+  .site-header .cart-button {
+    display: inline-flex !important;
+    width: 108px !important;
+    height: 39px !important;
+    min-height: 39px !important;
+    margin: 0 !important;
+    padding: 5px !important;
+    justify-content: center !important;
+    font-size: 10px !important;
+    white-space: nowrap !important;
+  }
+
+  .site-header .user-button { order: 1 !important; }
+  .site-header .cart-button { order: 2 !important; }
+
+  .site-header::before {
+    content: "باریش" !important;
+    position: absolute !important;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    display: block !important;
+    color: #145b3e !important;
+    font-size: 18px !important;
+    font-weight: 900 !important;
+    white-space: nowrap !important;
+    z-index: 2 !important;
+  }
+
+  .site-header .brand {
+    position: absolute !important;
+    right: 10px !important;
+    left: auto !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    display: flex !important;
+    width: 76px !important;
+    height: 85px !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    z-index: 3 !important;
+  }
+
+  .site-header .brand-logo {
+    display: block !important;
+    width: 72px !important;
+    height: 75px !important;
+    object-fit: contain !important;
+  }
+
+  .site-header .brand > span,
+  .site-header nav,
+  .site-header .header-shortcut,
+  .site-header .menu-toggle,
+  .floating-contact {
+    display: none !important;
+  }
+}
