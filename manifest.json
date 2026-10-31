@@ -1,0 +1,7 @@
+{
+  "name": "باریش",
+  "short_name": "باریش",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "lang": "fa"
+}
