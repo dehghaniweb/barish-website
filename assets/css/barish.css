@@ -349,3 +349,92 @@ button:active, .btn:active { transform: scale(.98); }
     padding: 10px 14px;
   }
 }
+
+/* چیدمان سه‌قسمتی سربرگ باریش */
+@media (max-width: 700px) {
+  .site-header {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) !important;
+    direction: ltr !important;
+    align-items: center !important;
+    justify-content: stretch !important;
+    min-height: 105px !important;
+    height: auto !important;
+    padding: 10px 9px !important;
+    gap: 3px !important;
+    overflow: visible !important;
+  }
+
+  /* دکمه‌ها در ستون چپ */
+  .site-header .header-actions {
+    grid-column: 1 !important;
+    grid-row: 1 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    justify-content: center !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+    gap: 7px !important;
+    direction: rtl !important;
+  }
+
+  .site-header .user-button,
+  .site-header .cart-button {
+    display: inline-flex !important;
+    width: 105px !important;
+    max-width: 100% !important;
+    min-height: 38px !important;
+    justify-content: center !important;
+    padding: 5px !important;
+    margin: 0 !important;
+    font-size: 10px !important;
+    white-space: nowrap !important;
+  }
+
+  .site-header .user-button { order: 1 !important; }
+  .site-header .cart-button { order: 2 !important; }
+
+  /* نام شرکت دقیقاً در ستون وسط */
+  .site-header::before {
+    content: "باریش" !important;
+    grid-column: 2 !important;
+    grid-row: 1 !important;
+    display: block !important;
+    text-align: center !important;
+    direction: rtl !important;
+    color: #145b3e !important;
+    font-size: 17px !important;
+    font-weight: 900 !important;
+    white-space: nowrap !important;
+  }
+
+  /* لوگو در ستون راست */
+  .site-header .brand {
+    grid-column: 3 !important;
+    grid-row: 1 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+    max-width: none !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+  }
+
+  .site-header .brand-logo {
+    display: block !important;
+    width: 68px !important;
+    height: 65px !important;
+    object-fit: contain !important;
+  }
+
+  .site-header .brand > span,
+  .site-header nav,
+  .site-header .header-shortcut,
+  .site-header .menu-toggle,
+  .floating-contact {
+    display: none !important;
+  }
+}
